@@ -1,7 +1,8 @@
 {
   "profiles": {
     "CleanRepo": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "commandLineArgs": "--orphaned-topics"
     }
   }
 }

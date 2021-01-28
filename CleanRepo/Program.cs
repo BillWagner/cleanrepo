@@ -29,7 +29,7 @@ namespace CleanRepo
         {
 #if DEBUG
             //args = new[] { "--trim-redirects", "--docset-root=c:\\users\\gewarren\\dotnet-docs\\docs", "--lookback-days=90", "--output-file=c:\\users\\gewarren\\desktop\\clicks.txt" };
-            args = new[] { "--catalog-images" };
+            //args = new[] { "--catalog-images" };
 #endif
 
             Parser.Default.ParseArguments<Options>(args).WithParsed(RunOptions);
